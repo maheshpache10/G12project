@@ -75,14 +75,12 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'core',
-        'USER': 'root',
-        'PASSWORD': '12345',
-        'HOST': 'localhost',
+        'NAME': 'rdsdb',
+        'USER': 'admin',
+        'PASSWORD': 'Mahesh123',
+        'HOST': 'databaseforrds.cd0wc6e4a6mb.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
-        'OPTIONS': {
-            'unix_socket': '/var/run/mysqld/mysqld.sock',
-        },
+
 
     }
 }
